@@ -1,0 +1,33 @@
+.collapse__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.collapse__button {
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    width: 200px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.collapse__text {
+    width: 50%;
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.text-hidden {
+    transition: all 0.5s ease-in-out;
+    height: 0;
+    margin-bottom: 0;
+    overflow: hidden;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    opacity: 0;
+}
+

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "webpack serve --mode development",
     "lint": "eslint .",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "test": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
@@ -33,6 +34,8 @@
     "file-loader": "^6.2.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
+    "jest": "^27.4.7",
+    "jest-loader": "^0.0.0",
     "mini-css-extract-plugin": "^0.9.0",
     "raw-loader": "^4.0.2",
     "txt-loader": "^1.0.0",
